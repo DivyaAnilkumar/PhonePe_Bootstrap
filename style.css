@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-hero-container {
+    background-color: #6739B6;
+    color: white;
+    padding: 80px 0;
+}
+
+.navbar-light {
+    background-color: transparent !important;
+}
+
+.navbar-brand img {
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.hero-section {
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section img {
+    width: 40%;
+}
+
+.image-phone {
+    width: 20%;
+    transform: rotate(20deg);
+    right: 20%;
+}
+
+.hero-section p {
+    margin-bottom: 20px;
+}
+
+.features-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature-box img {
+    width: 64px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature-box {
+    margin: 20px 0;
+    padding: 10%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.roundedimg {
+    border-radius: 50%;
+    height: 100px;
+    margin: 30px auto;
+    display: block;
+}
+
+.logo-section img {
+    width: 8%;
+    margin: 20px 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:rgb(255,255,255,.5); 
+    margin-right: 95px; 
+    transition: color 0.3s ease; 
+    font-size: 1.2rem;
+}
+    
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black; 
+}
+.testimonials-section h2{
+    font-size: 2rem;
+}
+.dbtn{
+    background-color: #6739B6;
+    border-color: white;
+ }
+.dbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .image-phone {
+        width: 30%;
+    }
+
+    .logo-section img {
+        max-height: 40px; 
+    }
+}
+
